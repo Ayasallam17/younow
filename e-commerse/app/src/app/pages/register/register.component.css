@@ -1,0 +1,39 @@
+.all{
+    height: 100vh;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+.image{
+    padding: 20px;
+}
+.logo{
+    margin-top: 4em;
+}
+.form{
+    margin-top: 15em;
+}
+@media(min-width : 1200px){
+    .padding{
+        margin-left: 5em;
+    }
+}
+@media(min-width :500px){
+    .padding{
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .form{
+        margin-top: 5em;
+    }
+}
+@media(min-width :300px){
+    .padding{
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .form{
+        margin-top: 5em;
+    }
+}

@@ -1,0 +1,72 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
+    <div class="container"> 
+      <a class="navbar-brand logo" style="color: hsl(0, 0%, 64%); font-size: 2em;">younow</a>
+      <!-- <button (click)="toggle()" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+      <select class="d-block d-sm-none d-block d-sm-none">
+        <option>home</option>
+        <option>home</option>
+        <option>home</option>
+      </select>
+      <div class="right">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link links" routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" >Home</a>
+          </li>
+          <li class="nav-item" > 
+            <a class="nav-link links" routerLink="/profile" routerLinkActive="active">notification</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link links" routerLink="/profile" routerLinkActive="active">profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link links" (click)="logOut()" routerLinkActive="active">Log Out</a>
+          </li>
+
+        </ul>   
+      </div>
+    </div>
+  </nav>
+<!-- <nav class="navbar navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ax">
+                <span class="sr-only">toggle nav</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand">axit</a>
+        </div>
+        <div class="collapse navbar-collapse" id="ax">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a>link</a></li>
+                <li><a>link</a></li>
+                <li><a>link</a></li>
+                <li><a>link</a></li>
+                <li><a>link</a></li>
+            </ul>
+        </div>
+    </div>
+</nav> -->
+<!-- <div class="container">
+            
+        <nav>
+            <ul>
+                <li><a routerLink="" ><i class="fa fa-home"  aria-hidden="true"></i></a></li>  
+                <li><a routerLink="/addpost">post</a></li>
+                <li><a href="#"><i class="fa fa-bell"  aria-hidden="true"></i></a></li>
+                <li><a routerLink="/profile">Profile</a></li>
+            </ul>
+        </nav>
+    
+            <i class="fa fa-search"  aria-hidden="true"></i>
+             
+            <i class="fa fa-bookmark"  aria-hidden="true"></i>
+            <i class="fa fa-images"  aria-hidden="true"></i>
+            <i class="fa fa-bell"  aria-hidden="true"></i>
+             
+  </div> -->
+
+

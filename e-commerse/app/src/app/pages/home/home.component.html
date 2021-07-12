@@ -1,0 +1,57 @@
+<app-nav></app-nav>
+<app-post></app-post>
+    <div class="inner">
+
+        <div *ngFor = 'let p of posts' class="post mb-2">
+            <div class="row" style="z-index: 0;"> 
+                <div class="dotes col-lg-12">  
+                    <i class="fa fa-ellipsis-h" style="float: right;" (click)="showMenu()"></i>
+                </div>
+                <div *ngIf="isClick" class="menu" >
+                    <ul class="list-group">
+                        <li class="list-group-item" >Delete</li>
+                        <li class="list-group-item">Update</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-12 "> 
+                    <p class="lead">{{p.content}} </p> 
+                </div>  
+                 
+              
+                    <div class="mb-2 col-lg-12" *ngIf="urls">  
+                        <img src={{p.imageUrl}}  class="img-fluid" style="width: 100%;"> 
+                    </div>
+                
+
+                <div class="line"></div>
+
+                <!-- <div class="row mb-2">
+                    <button class="btn col-3" >like</button>
+                    <button class="btn col-3" (click)="showComments(p.postUserId)" >comment</button>
+                    <button class="btn col-3">share</button>
+                    <button class="btn col-3">send</button>
+                </div> -->
+
+                <form  [formGroup]="commentForm" (ngSubmit)="addComment(p.postUserId)" *ngIf="clickComment"  >  
+                    <div>
+                        <textarea type="text" name="comment" formControlName="comment" class="post"></textarea>
+                    </div>
+                    <div class="col-lg-12" >
+                        <button type="submit" id="form-submit" class="btn btn-primary btn-sm floatRight">Publish</button>
+                    </div>
+                </form>
+
+                <div>
+                    <div *ngFor="let comment of comments" >
+                        {{comment.Data.content}}
+                    </div>
+                </div>
+            </div>
+        
+        
+        
+    </div>
+    </div>
+
+

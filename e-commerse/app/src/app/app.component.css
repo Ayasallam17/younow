@@ -1,0 +1,13 @@
+/* *{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+} */
+body{
+    color: blue;
+}

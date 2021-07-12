@@ -1,0 +1,26 @@
+
+.post{
+    border: #a2a2a2 solid 1px;
+    width: 100%;
+}
+ 
+fieldset{
+    color: #a2a2a2;
+    border-style: none;
+    padding-left: 5px;
+    margin: 0;
+    font-size: 1em;
+}
+.floatRight{
+    float: right;
+}
+@media(min-width : 1200px){
+    .post{
+        width: 100%;
+    }
+    .all{
+        margin-top: 15px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}

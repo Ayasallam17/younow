@@ -1,0 +1,68 @@
+{
+  "Posts": [
+    {
+      "description": "offer what you want to pay and we will sell it good luck ,offer what you want to pay and we will sell it good luck",
+      "likes": 6,
+      "id": 3
+    },
+    {
+      "description": "descriptionskkks",
+      "likes": 8,
+      "id": 7
+    },
+    {
+      "description": "dkdooisiss",
+      "likes": 1,
+      "id": 8
+    },
+    {
+      "description": "sjkksiisssdsa",
+      "likes": 1,
+      "id": 9
+    },
+    {
+      "description": "ay sallam\ndkkkds\n",
+      "likes": 0,
+      "id": 10
+    },
+    {
+      "description": "klkll",
+      "likes": 0,
+      "id": 11
+    },
+    {
+      "description": "djiskksid",
+      "likes": 0,
+      "id": 12
+    },
+    {
+      "description": "hbkhkj\njhkjk",
+      "likes": 0,
+      "id": 13
+    }
+  ],
+  "comments": [
+    {
+      "postId": 3,
+      "content": "good"
+    }
+  ],
+  "User": [
+    {
+      "id": 30,
+      "firstName": "aua",
+      "lastName": "sallam",
+      "email": "aua@gmail.com",
+      "password": "123",
+      "status": "active"
+    },
+    {
+      "id": 30,
+      "firstName": "aua",
+      "lastName": "sallam",
+      "email": "aaa",
+      "password": "123",
+      "status": "active"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+
+    <div class= "container"  >
+        <div class="all">
+            <form [formGroup]="postForm"  (ngSubmit)="addPost()">
+                <fieldset>
+                    <textarea formControlName="content" placeholder="what you pay" class="post"></textarea>
+                </fieldset>
+                <div class="row mt-2">
+                    <div class="row col-lg-4">  
+                    <i class="fa fa-image col-lg-1"><input type="file" (change)="onFileSelected($event)"></i>
+                    <!-- <i class="fa fa-file col-lg-1"></i>
+                    <i class="fa fa-map-marker col-lg-1"></i>
+                    <i class="fa fa-camera col-lg-1"></i> -->
+                    </div>
+                    <div class="col-lg-8 " >
+                        <button type="submit" id="form-submit" class="btn btn-primary btn-sm floatRight">Publish</button>
+                    </div> 
+                </div>
+            </form>
+        </div>
+    </div>
+
+<!-- "node_modules/bootstrap/dist/js/bootstrap.min.js"
+"node_modules/bootstrap/dist/css/bootstrap.min.css",
+"node_modules/font-awesome/css/font-awesome.css" -->
